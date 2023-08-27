@@ -121,6 +121,66 @@ const listItems = [
     'title': "Cloud Computing",
     'description': "Cloud Computing is the delivery of computing services over the internet, such as storage, servers, databases, networking, software, etc. It enables organizations to scale resources dynamically, reduce infrastructure costs, and focus on development without worrying about hardware management.",
     'reference': "Microsoft Azure, 'What is Cloud Computing?' - https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/",
+  },
+  {
+    'id': "21",
+    'title': "Infrastructure Automation",
+    'description': "Infrastructure automation involves using code and scripts to automate the provisioning, configuration, and management of infrastructure resources, such as servers, networks, and storage. This practice ensures consistency, reduces manual errors, and speeds up deployment processes.",
+    'reference': "HashiCorp, 'What is Infrastructure as Code?' - https://www.hashicorp.com/infrastructure-as-code"
+  },
+  {
+    'id': "22",
+    'title': "Release Orchestration",
+    'description': "Release orchestration is the process of planning, coordinating, and managing the deployment of software releases across different environments. It involves automating and tracking the entire release pipeline to ensure smooth and controlled software delivery.",
+    'reference': "Electric Cloud, 'Release Orchestration Explained' - https://electric-cloud.com/blog/release-orchestration-explained/"
+  },
+  {
+    'id': "23",
+    'title': "Immutable Infrastructure",
+    'description': "Immutable infrastructure is an approach where infrastructure components, such as servers, are created from pre-configured images and are never modified directly. Instead of making changes on existing instances, new instances are deployed with updated configurations, ensuring consistency and easy rollback.",
+    'reference': "ThoughtWorks, 'Introduction to Immutable Infrastructure' - https://www.thoughtworks.com/insights/blog/introduction-immutable-infrastructure"
+  },
+  {
+    'id': "24",
+    'title': "Site Reliability Engineering (SRE)",
+    'description': "Site Reliability Engineering is a practice that combines software engineering and operations to build scalable and reliable systems. SREs focus on designing, building, and maintaining software systems that are resilient, scalable, and can be operated efficiently.",
+    'reference': "Google Cloud, 'Site Reliability Engineering' - https://cloud.google.com/sre"
+  },
+  {
+    'id': "25",
+    'title': "ChatOps",
+    'description': "ChatOps is a collaboration model that integrates DevOps practices with chat platforms. It involves using chatbots and automation to perform tasks, monitor systems, and communicate with team members, enabling real-time collaboration and information sharing.",
+    'reference': "GitHub, 'Introduction to ChatOps' - https://github.com/exAspArk/awesome-chatops"
+  },
+  {
+    'id': "26",
+    'title': "Container Orchestration",
+    'description': "Container orchestration involves managing the deployment, scaling, and operation of containers across a cluster of machines. Tools like Kubernetes and Docker Swarm automate the process of provisioning, scaling, and load balancing containerized applications.",
+    'reference': "Kubernetes, 'What is Kubernetes?' - https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"
+  },
+  {
+    'id': "27",
+    'title': "Continuous Testing",
+    'description': "Continuous testing is the practice of running automated tests throughout the software development lifecycle to provide rapid feedback on code changes. It helps identify issues early, improve code quality, and ensure that software updates don't introduce regressions.",
+    'reference': "Tricentis, 'What is Continuous Testing?' - https://www.tricentis.com/continuous-testing/"
+  },
+  {
+    'id': "28",
+    'title': "Infrastructure Monitoring",
+    'description': "Infrastructure monitoring involves tracking the health and performance of infrastructure components like servers, networks, and databases. Monitoring tools provide insights into resource utilization, response times, and potential issues, helping teams ensure the reliability of their systems.",
+    'reference': "Datadog, 'Infrastructure Monitoring' - https://www.datadoghq.com/solutions/infrastructure/"
+  },
+  {
+    'id': "29",
+    'title': "Deployment Pipeline",
+    'description': "A deployment pipeline is a sequence of automated stages that code changes go through, from development to production. It includes building, testing, and deploying the application, with automated checks and approvals at each stage to ensure code quality and stability.",
+    'reference': "ThoughtWorks, 'Introduction to Deployment Pipelines' - https://www.thoughtworks.com/insights/blog/implementing-effective-deployment-pipelines-devops"
+  },
+  {
+    'id': "30",
+    'title': "Shift-Left Testing",
+    'description': "Shift-left testing involves moving testing activities earlier in the software development lifecycle, such as during development or even requirements gathering. By catching defects and issues earlier, teams can reduce the cost and effort of fixing problems in later stages.",
+    'reference': "TechBeacon, 'Shift-left testing: How to avoid a performance-testing disaster' - https://techbeacon.com/app-dev-testing/shift-left-testing-how-avoid-performance-testing-disaster"
   }
 ];
 
