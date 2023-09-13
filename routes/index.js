@@ -181,6 +181,66 @@ const listItems = [
     'title': "Shift-Left Testing",
     'description': "Shift-left testing involves moving testing activities earlier in the software development lifecycle, such as during development or even requirements gathering. By catching defects and issues earlier, teams can reduce the cost and effort of fixing problems in later stages.",
     'reference': "TechBeacon, 'Shift-left testing: How to avoid a performance-testing disaster' - https://techbeacon.com/app-dev-testing/shift-left-testing-how-avoid-performance-testing-disaster"
+  },
+  {
+    'id': "31",
+    'title': "Blue-Green Deployment",
+    'description': "Blue-Green Deployment is a deployment strategy where two identical environments, the 'blue' environment (currently running) and the 'green' environment (new version), are used. Traffic is switched from blue to green after testing, reducing downtime and allowing for quick rollbacks if issues arise.",
+    'reference': "Martin Fowler, 'BlueGreenDeployment' - https://martinfowler.com/bliki/BlueGreenDeployment.html"
+  },
+  {
+    'id': "32",
+    'title': "Chaos Engineering",
+    'description': "Chaos Engineering is a discipline that involves deliberately introducing controlled chaos, such as system failures or network issues, into a software system to test its resilience and identify weaknesses. The goal is to proactively discover and address vulnerabilities before they impact users.",
+    'reference': "Principlesofchaos.org, 'Principles of Chaos Engineering' - https://www.principlesofchaos.org/"
+  },
+  {
+    'id': "33",
+    'title': "Infrastructure as Code (IaC) Tools",
+    'description': "Infrastructure as Code (IaC) tools are software solutions that enable the automation of infrastructure provisioning and management through code. Popular IaC tools include Terraform, Ansible, and Puppet, which allow teams to define infrastructure as code and ensure consistency and scalability.",
+    'reference': "HashiCorp, 'Terraform' - https://www.hashicorp.com/terraform"
+  },
+  {
+    'id': "34",
+    'title': "Serverless Computing",
+    'description': "Serverless computing is a cloud computing model where cloud providers manage the infrastructure, and developers focus solely on writing and deploying code in the form of functions. It eliminates the need to manage servers, allowing for auto-scaling and cost optimization.",
+    'reference': "AWS, 'What is Serverless Computing?' - https://aws.amazon.com/serverless/what-is-serverless/"
+  },
+  {
+    'id': "35",
+    'title': "GitOps",
+    'description': "GitOps is a DevOps methodology that leverages Git repositories as the source of truth for both application code and infrastructure configuration. Changes are made through pull requests, and automation ensures that the desired state is continuously deployed to the target environment.",
+    'reference': "Weaveworks, 'GitOps - Operations by Pull Request' - https://www.weave.works/technologies/gitops/"
+  },
+  {
+    'id': "36",
+    'title': "Shift-Right Testing",
+    'description': "Shift-Right Testing involves monitoring and testing applications in production or post-release environments. It aims to detect and address issues, collect real-world user feedback, and improve software quality and performance after deployment.",
+    'reference': "TechBeacon, 'Shift-right testing: A new strategy for a new World' - https://techbeacon.com/app-dev-testing/shift-right-testing-new-strategy-new-world"
+  },
+  {
+    'id': "37",
+    'title': "Canary Deployment",
+    'description': "Canary Deployment is a deployment strategy where a small subset of users or traffic is directed to a new software version (the 'canary') while the majority continues to use the existing version. This allows for real-world testing and monitoring of the new version's performance and stability.",
+    'reference': "Martin Fowler, 'CanaryRelease' - https://martinfowler.com/bliki/CanaryRelease.html"
+  },
+  {
+    'id': "38",
+    'title': "Feature Toggles (Feature Flags)",
+    'description': "Feature Toggles, also known as Feature Flags, are a DevOps practice that enables the selective activation or deactivation of specific features within an application through configuration settings. This allows for controlled feature rollouts, A/B testing, and quick response to issues.",
+    'reference': "LaunchDarkly, 'Feature Flags: A Love Story' - https://launchdarkly.com/blog/feature-flags-love-story/"
+  },
+  {
+    'id': "39",
+    'title': "Serverless Orchestration",
+    'description': "Serverless Orchestration involves coordinating and sequencing serverless functions and workflows to achieve complex tasks or processes. Orchestration tools like AWS Step Functions or Azure Durable Functions enable developers to build scalable, event-driven applications.",
+    'reference': "AWS, 'AWS Step Functions' - https://aws.amazon.com/step-functions/"
+  },
+  {
+    'id': "40",
+    'title': "DevOps Metrics and KPIs",
+    'description': "DevOps Metrics and Key Performance Indicators (KPIs) are measurements used to assess the effectiveness and efficiency of DevOps practices. Examples include deployment frequency, lead time, mean time to recovery (MTTR), and customer satisfaction, helping teams make data-driven improvements.",
+    'reference': "DevOps.com, 'The Ultimate List of DevOps Metrics and KPIs' - https://devops.com/the-ultimate-list-of-devops-metrics-and-kpis/"
   }
 ];
 
